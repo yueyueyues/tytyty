@@ -1,0 +1,259 @@
+@charset "utf-8";
+
+/*/
+头部第一部分！！！！！！！
+/*/
+
+.header_bar {
+    background-color: #ccc;
+}
+
+.header_bar .container {
+    position: relative;
+    margin: 0 auto;
+    width: 1192px;
+}
+
+.header_bar .container_left {
+    float: left;
+    display: flex;
+}
+
+.header_bar .container h3 {
+    font-size: 14px;
+    line-height: 38px;
+    /* font-weight: 600; */
+}
+
+.header_bar .container_right {
+    float: right;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_bar .container a {
+    font-size: 14px;
+    color: #111;
+    line-height: 38px;
+    margin-right: 20px;
+}
+
+
+/* .header_bar .container .repair a {
+    font-size: 36px;
+} */
+
+.header_bar .container a .tel {
+    font-size: 20px;
+    color: skyblue;
+    width: 100%;
+}
+
+
+/*/
+头部第二部分！！！！
+/*/
+
+.header_nav .container {
+    width: 1192px;
+    height: 78px;
+    margin: auto;
+    display: flex;
+    padding-top: 18px;
+    justify-content: space-between;
+}
+
+.repair_part .part_title h3 {
+    font-size: 36px;
+}
+
+.header_nav .container h2 {
+    width: 184px;
+    height: 60px;
+}
+
+.header_nav .container h2 img {
+    width: 100%;
+    margin-top: 9px;
+}
+
+.header_nav .container ul {
+    height: 100%;
+    display: flex;
+    position: relative;
+}
+
+.header_nav .container li {
+    height: 100%;
+    font-size: 16px;
+    line-height: 78px;
+    margin-right: 50px;
+}
+
+.header_nav .container li a {
+    color: #111;
+}
+
+.header_nav .container li:nth-of-type(5) {
+    margin-right: 0px;
+}
+
+.header_nav .container .slider {
+    width: 32px;
+    height: 3px;
+    background: skyblue;
+    border-radius: 3px;
+    position: absolute;
+    top: 57px;
+    left: 0px;
+    transition: 0.3s;
+}
+
+.header_nav .container .container_news_layer {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 290px;
+    top: 100px;
+    display: none;
+    opacity: 0;
+    z-index: 2;
+    background-color: white;
+}
+
+.header_nav .container .container_news_layer a {
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 14px;
+}
+
+
+/* 
+轮播 ！！！！！！！！！！！！！！
+*/
+
+.example {
+    width: 100%;
+    height: 500px;
+    font-size: 40px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.carousel-item {
+    line-height: 336px;
+    color: #fff;
+    font-family: Arial Black
+}
+
+
+/* 
+专业维修！！！！！！！！！！！！！！！！！
+ */
+
+.repair_part {
+    width: 100%;
+    position: relative;
+    background: url("../img/index/A44.png");
+    background-size: 1192px auto;
+}
+
+.part_title {
+    padding: 40px 0 40px;
+    font-size: 36px;
+    text-align: center;
+}
+
+.repair_part .part_title h3 {
+    font-weight: 600;
+}
+
+.repair_part ul {
+    display: block;
+    margin: 0 auto;
+    width: 1192px;
+    text-align: center;
+}
+
+.repair_part ul li {
+    position: relative;
+    display: inline-block;
+    margin: 0 40px 60px 40px;
+    width: 324px;
+    height: 164px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    transition: all .3s;
+}
+
+.repair_part ul li:nth-of-type(3n-2) {
+    margin-left: 0;
+}
+
+.repair_part ul div {
+    position: absolute;
+    left: -60px;
+    top: 22px;
+    width: 120px;
+    height: 120px;
+    color: #00a7eb;
+    font-size: 50px;
+    line-height: 120px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    transition: all .3s;
+}
+
+.repair_part ul div img {
+    margin: 32px 0 0 34px;
+    width: 50px;
+    height: 50px;
+    vertical-align: initial;
+}
+
+.repair_part ul b {
+    margin: 40px 20px 0 80px;
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.repair_part ul p {
+    margin: 8px 20px 0 80px;
+    display: block;
+    color: #999;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: left;
+}
+
+.part_link {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.part_link a {
+    display: inline-block;
+    margin: 40px auto;
+    width: 300px;
+    height: 60px;
+    color: #00a7eb;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 58px;
+    background-color: #fff;
+    border: 2px solid #00a7eb;
+    border-radius: 4px;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.part_link a:hover {
+    color: #fff;
+    background-color: #00a7eb;
+}

@@ -1,0 +1,95 @@
+@charset "utf-8";
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+th,
+td {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    /* 统一字体大小 */
+    font-size: 16px;
+    font-family: "Microsoft YaHei";
+}
+
+ul,
+ol,
+li {
+    /* 清楚列表符号 */
+    list-style: none;
+}
+
+a,
+u {
+    /* 去掉下划线 */
+    text-decoration: none;
+}
+
+i.em {
+    /* 默认倾斜清除 */
+    font-style: normal;
+}
+
+b,
+strong {
+    /* 清除默认加粗 */
+    font-weight: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+img {
+    /* 边框清零 */
+    border: none;
+    display: block;
+}
+
+input {
+    outline: none;
+}
+
+
+/* 万能清除法 */
+
+.clear:after {
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+
+/* 浏览器兼容 */
+
+.clear {
+    zoom: 1;
+}
